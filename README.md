@@ -57,18 +57,21 @@ streamlit run app.py
 <br>
 
 
-#### App Images
+#### Snapshot of App
 
 These are some images of the deployed app
 
+<img src="Images/Home.png">
+<br>
 
+<img src="Images/Dashboard.png">
+<br>
 
+<img src="Images/focus.png">
+<br>
 
-
-
-
-
-
+<img src="Images/batch.png">
+<br>
 
 
 
