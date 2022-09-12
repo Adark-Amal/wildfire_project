@@ -56,6 +56,22 @@ streamlit run app.py
 
 <br>
 
+
+#### App Images
+
+These are some images of the deployed app
+
+
+
+
+
+
+
+
+
+
+
+
 ## Project Motivation<a name="pm"></a>
 <details>
 	<summary>Problem Statement</summary>
