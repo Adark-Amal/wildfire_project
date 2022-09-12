@@ -7,7 +7,6 @@
 * [File Description](#fd)
 * [Methodology](#md)
 * [Results](#re)
-* [Deployed App](#cf)
 
 
 <br>
@@ -42,7 +41,13 @@ To run the jupyter notebook on your localhost, I recommend you install the packa
 
 #### Running Streamlit App
 <br>
+
+Before running the script below, you would need to download the database file on which the app depends. Download the file [here](https://drive.google.com/file/d/1ppmtt3oxiDxxpCOmBkVgClLyU3of4_Iz/view?usp=sharing) and save it in a folder called `Data`
+
+<br>
 Once you have completed the steeps above, in your anaconda prompt terminal, navigate into the App folder where the `app.py` file is located. Once, you're in that App folder, type the command below.
+
+<br>
 
 ```python
 
@@ -166,6 +171,4 @@ Based on the insights generated and results from testing some of our assumptions
  
 <br>
 
-## Deployed App<a name="cf"></a> 
-[Wildfire App](https://insidesherpa.s3.amazonaws.com/completion-certificates/ANZ/ZLJCsrpkHo9pZBJNY_ANZ_tCfFoXSNJ4aLnBQye_completion_certificate.pdf)
 
