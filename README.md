@@ -16,27 +16,29 @@
 
 #### Running Jupyter Notebook<a name="jn"></a>
 <br>
-To run the jupyter notebook on your localhost, I recommend you install the packages I used for this project. You can do that by following the steps I have outlined below. But before that, make sure you have anaconda downloaded and installed;
+To run the jupyter notebook on your localhost, I recommend you install the packages I used for this project. You can do that by following the steps I have outlined below. But before that, make sure you have <a href='https://www.anaconda.com/products/distribution'>anaconda</a> downloaded and installed;
 
-1. Download the requirements.txt file and save it into the directory you'll be working from.
-2. Create a conda environment with python 3.*
+1. Clone this repository.
+2. Open anaconda prompt and create a new enviroment with python installed. Use the command below
 
 	```python
 
 	conda create --name env-name python==3.8
 	```
-3. Now install the packages from the requirements.txt file. Make sure you're in folder that has the file.
-
-	```python
-
-	pip install requirements.txt
-	```
-4. Finally, activate the environment and run the cloned/downloaded jupyter notebook
+3. Now activate new enviroment with python preinstalled. Use command below
 
 	```python
 
 	conda activate env-name
 	```
+4. Navigate into the cloned repo using the `cd` command.
+5. Now install the packages from the requirements.txt file. Make sure you're in folder that has the file.
+
+	```python
+
+	pip install requirements.txt
+	```
+6. Now, from anaconda prompt type `jupyter notebook` in the terminal. Finally, navigate to the `Notebook` folder and open the ipython notebook file.
 <br>
 
 #### Running Streamlit App
