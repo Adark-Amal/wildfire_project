@@ -14,7 +14,7 @@
 ## Installing Packages<a name="ip"></a>
 <br>
 
-#### Running Jupyter Notebook
+#### Running Jupyter Notebook<a name="jn"></a>
 <br>
 To run the jupyter notebook on your localhost, I recommend you install the packages I used for this project. You can do that by following the steps I have outlined below. But before that, make sure you have anaconda downloaded and installed;
 
@@ -42,17 +42,17 @@ To run the jupyter notebook on your localhost, I recommend you install the packa
 #### Running Streamlit App
 <br>
 
-Before running the script below, you would need to download the database file on which the app depends. Download the file [here](https://drive.google.com/file/d/1ppmtt3oxiDxxpCOmBkVgClLyU3of4_Iz/view?usp=sharing) and save it in a folder called `Data`
+1. Clone this repository 
+2. Download the sqlite database file [here](https://drive.google.com/file/d/1ppmtt3oxiDxxpCOmBkVgClLyU3of4_Iz/view?usp=sharing) and save it in a folder called `Data`.
+3. Add the newly created Data folder to the cloned repository cloned from step 1.
+4. Open anaconda prompt and activate the env created from [running jupyter notebook](#jn) face with the dependencies already installed.
+5. Once environment is activated, nagivate into the `App` folder using the `cd` command.
+6. Finally, type the command below to run the app.
 
-<br>
-Once you have completed the steeps above, in your anaconda prompt terminal, navigate into the App folder where the `app.py` file is located. Once, you're in that App folder, type the command below.
+	```python
 
-<br>
-
-```python
-
-streamlit run app.py
-```
+	streamlit run app.py
+	```
 
 <br>
 
